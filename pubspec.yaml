@@ -1,0 +1,26 @@
+name: coteria_app
+description: "Coteria App."
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.5.0-180.3.beta <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.2.1
+  font_awesome_flutter: ^10.7.0
+  firebase_auth: ^5.1.1
+  cloud_firestore: ^5.0.2
+  firebase_core: ^3.1.1
+  curved_navigation_bar: ^1.0.6
+  provider: ^6.0.3
+  page_transition: ^2.0.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+flutter:
+  uses-material-design: true
+  assets:
+     - lib/core/shared/assets/
